@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".DetailActivity">
+
+
+    <ImageView
+        android:id="@+id/detailItemPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/bunglon"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detailName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:text="Rusa Kutub"/>
+
+        <TextView
+            android:id="@+id/detailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:layout_marginTop="14dp"
+            android:textColor="@color/black"
+            android:text="\t\t\tHewan Yang dapat berubah warna."/>
+        <TextView
+            android:id="@+id/detailItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:justificationMode="inter_word"
+            android:textSize="18sp"
+            android:layout_marginTop="14dp"
+            android:textColor="@color/black"
+            android:text="\t\t\tQuisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium noursy."/>
+
+    </LinearLayout>
+
+</LinearLayout>
