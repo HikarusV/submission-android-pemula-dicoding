@@ -15,7 +15,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="12dp"
-            android:src="@drawable/antelopes"
+            android:src="@drawable/antalopes"
             android:scaleType="centerCrop"
             android:layout_weight="1"/>
 

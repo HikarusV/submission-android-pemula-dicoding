@@ -52,7 +52,7 @@ object ItemData {
     )
 
     private val itemImages = intArrayOf(
-        R.drawable.antelopes,
+        R.drawable.antalopes,
         R.drawable.bunglon,
         R.drawable.cat,
         R.drawable.cheetah,

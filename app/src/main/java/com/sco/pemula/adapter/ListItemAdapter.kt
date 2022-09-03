@@ -35,7 +35,6 @@ class ListItemAdapter(private val listItem: ArrayList<Item>) : RecyclerView.Adap
         holder.tvDetail.text = item.text
 
         holder.itemView.setOnClickListener {
-            Toast.makeText(holder.itemView.context, "Item Clicked", Toast.LENGTH_SHORT).show()
             val moveWithDataIntent = Intent(holder.itemView.context, DetailActivity::class.java)
             moveWithDataIntent.putExtra("EXTRA_ID", position)
             holder.itemView.context.startActivity(moveWithDataIntent)
